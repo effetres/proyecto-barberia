@@ -195,7 +195,7 @@ h2{
     grid-area: sub-titulo-nosotros;
     display: inline-block;
     padding: 10px;
-    background-color: #ECB365 ;
+    background-image:linear-gradient(rgb(234, 255, 0), red) ;
     border: 1px groove black;
     border-radius: 70px;
 }
