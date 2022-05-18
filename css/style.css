@@ -200,6 +200,10 @@ h2{
     border-radius: 70px;
 }
 
+.animate__animated.animate__bounceIn{
+    animation-duration: 4s;
+}
+
 .p-nosotros{
     grid-area: p-nosotros;
     margin: 50px;
@@ -293,7 +297,13 @@ tr:hover td{
 
 .img-wsp{
     display: grid;
-    justify-content: center ;
+    justify-content: center;
+    
+}
+
+.imgwsp:hover{
+    transform: scale(1.4);
+
 }
 
 .titulo-clientes{
