@@ -24,39 +24,36 @@ header h1{
     font-family: cursive;
 }
 
-.menu {
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    background-color:#374045;
-    margin: 10px;
-    padding: 3px;
-
-}
-
-.menu ul li {
-    list-style-type:none;
-    display: inline-block;
-    margin: 5px;
-}
-
-.lista1 li a{
+.container-fluid {
+    background-color: #345B63;
+     }
+    
+.navbar-nav {
+    font-size: 1.3rem;
+    list-style-type: none;
+    padding: 0.3rem;
+    margin: 0.5rem;
+    font-weight: 100;
     text-decoration: none;
-    color: bisque;
-}
-
-.menu ul li:hover{
-    background-color:  rgb(230, 132, 132);
-}
-
-
-.menu ul ul {
-    position: absolute;
-}
-
-.menu ul li:hover> ul{
-    display: block;
-}
+    width: 100%;
+    background-color: #345B63;
+    justify-content: center;
+    gap: 1rem;
+    }
+    
+.nav-item a {
+    color: #D4ECDD;
+    color: #D4ECDD;
+    font-weight: 500;
+    }
+    
+nav ul li:hover {
+    background-color: rgb(156, 183, 241);
+ }
+    
+.navbar-brand {
+    color: #D4ECDD;
+    }
 
 .sub-titulo{
     text-align: center;
@@ -136,7 +133,7 @@ main h2{
 footer{
     background-color: #ECB365;
     margin: 25px;
-    height: 20px;
+    height: 1.7rem;
 }
 
 footer h4{
